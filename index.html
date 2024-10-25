@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+#c{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background: #000000;
+}
+span{
+	color: white;
+}
+
+#noOptions{
+	position: fixed;
+	left: 1%;
+	top: 1%;
+}
+
+#options{
+	position: fixed;
+	left: 1%;
+	top: 1%;
+}
+input{
+	width: 90px;
+}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<span id="noOptions">O - options</span>
+<div id="options">
+<span>Point Size</span> <input type="text" id="inp1"><br>
+<span>Smoothing Radius</span> <input type="text" id="inp2"><br>
+<span>Target Density</span> <input type="text" id="inp3"><br>
+<span>Pressure Multipler</span> <input type="text" id="inp4"><br>
+
+<span>Gravity</span> <input type="text" id="inp5"><br>
+<span>Viscosity Scale</span> <input type="text" id="inp6"><br>
+<span>Near Pressure Multipler</span> <input type="text" id="inp7"><br>
+<span>Smoothing Factor</span> <input type="text" id="inp8"><br>
+<span>Near Smoothing Function Derivative Factor</span> <input type="text" id="inp9"><br>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
